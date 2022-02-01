@@ -5,8 +5,6 @@
 	s = status
 	b = branch -av
 	l = log --oneline --graph
-	fm = fetch origin master:master
-	fq = fetch origin qa:qa
 	skip = update-index --skip-worktree
 	noskip = update-index --no-skip-worktree
 	ca = commit --amend --no-edit
