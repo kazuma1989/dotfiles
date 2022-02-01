@@ -1,6 +1,19 @@
 *
 
+!/secrets/
+!/secrets/.gitkeep
+
+!/.config/
+!/.config/karabiner/
+!/.config/karabiner/karabiner.json
+!/.config/git/
+!/.config/git/ignore
+
+!/.gitconfig
 !/.gitignore
+!/.vimrc
+!/.zshenv
+!/.zshrc
 !/Brewfile
 !/README.md
 !/install.sh

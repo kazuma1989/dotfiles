@@ -1,0 +1,18 @@
+[user]
+	name = kazuma1989
+	email = kazuma.ebina@quipper.com
+[alias]
+	s = status
+	b = branch -av
+	l = log --oneline --graph
+	fm = fetch origin master:master
+	fq = fetch origin qa:qa
+	skip = update-index --skip-worktree
+	noskip = update-index --no-skip-worktree
+	ca = commit --amend --no-edit
+[core]
+	quotepath = false
+[diff]
+	algorithm = histogram
+[init]
+	defaultBranch = main
