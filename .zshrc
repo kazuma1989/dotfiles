@@ -12,5 +12,6 @@ alias sync='hub sync'
 alias tree='tree --dirsfirst -a -N -F -I "\.DS_Store|\.git|node_modules|\.cache|dist|\.ts-cache"'
 
 # hooks
+eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(direnv hook zsh)"
 eval "$(nodenv init - zsh)"

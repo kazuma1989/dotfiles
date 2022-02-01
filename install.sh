@@ -8,6 +8,7 @@ git clone https://github.com/kazuma1989/dotfiles.git ~/.dotfiles
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew bundle --file ~/.dotfiles/Brewfile
 
