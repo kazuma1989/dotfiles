@@ -1,3 +1,6 @@
+# require sudo
+cask "karabiner-elements"
+
 brew "direnv"
 brew "git"
 brew "hub"
@@ -11,7 +14,6 @@ cask "clipy"
 cask "figma"
 cask "firefox"
 cask "google-chrome"
-cask "karabiner-elements"
 cask "krisp"
 cask "microsoft-edge"
 cask "slack"
