@@ -1,5 +1,6 @@
 *
 
-!.gitignore
-!Brewfile
-!README.md
+!/.gitignore
+!/Brewfile
+!/README.md
+!/install.sh
