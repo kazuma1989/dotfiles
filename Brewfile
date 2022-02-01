@@ -1,5 +1,3 @@
-tap "homebrew/cask"
-
 brew "direnv"
 brew "git"
 brew "hub"
