@@ -1,8 +1,11 @@
 tap "homebrew/cask"
 
+brew "direnv"
+brew "git"
 brew "hub"
 brew "jq"
 brew "nodenv"
+brew "tree"
 brew "yarn"
 
 cask "charles"
@@ -19,5 +22,6 @@ cask "zoom"
 
 cask "homebrew/cask-fonts/font-cica"
 
-mas "Floating: Picture in Picture", id: 1508833245
 mas "BetterSnapTool", id: 417375580
+mas "Floating", id: 1508833245
+mas "GIPHY CAPTURE", id: 668208984
