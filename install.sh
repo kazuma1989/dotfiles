@@ -27,3 +27,6 @@ ln -s ~/.dotfiles/.zshenv ~/.zshenv
 
 mv ~/.zshrc{,.orig}
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+
+mv ~/Library/Preferences/com.hegenberg.BetterSnapTool.plist{,.orig}
+ln -s ~/.dotfiles/Library/Preferences/com.hegenberg.BetterSnapTool.plist ~/Library/Preferences/com.hegenberg.BetterSnapTool.plist

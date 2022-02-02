@@ -1,13 +1,17 @@
 *
 
-!/secrets/
-!/secrets/.gitkeep
-
 !/.config/
 !/.config/karabiner/
 !/.config/karabiner/karabiner.json
 !/.config/git/
 !/.config/git/ignore
+
+!/Library/
+!/Library/Preferences/
+!/Library/Preferences/com.hegenberg.BetterSnapTool.plist
+
+!/secrets/
+!/secrets/.gitkeep
 
 !/.gitconfig
 !/.gitignore
