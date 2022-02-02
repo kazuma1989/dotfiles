@@ -36,3 +36,5 @@ ln -s ~/.dotfiles/Library/Preferences/com.hegenberg.BetterSnapTool.plist ~/Libra
 # SSH
 ssh-keygen -t ed25519 -C "kazuma.ebina@quipper.com"
 ssh-add ~/.ssh/id_ed25519
+
+git remote set-url origin git@github.com:kazuma1989/dotfiles.git
