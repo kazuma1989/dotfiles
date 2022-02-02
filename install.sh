@@ -32,3 +32,7 @@ mv ~/Library/Application\ Support/BetterSnapTool/storedata{,.orig}
 ln -s ~/.dotfiles/Library/Application\ Support/BetterSnapTool/storedata ~/Library/Application\ Support/BetterSnapTool/storedata
 mv ~/Library/Preferences/com.hegenberg.BetterSnapTool.plist{,.orig}
 ln -s ~/.dotfiles/Library/Preferences/com.hegenberg.BetterSnapTool.plist ~/Library/Preferences/com.hegenberg.BetterSnapTool.plist
+
+# SSH
+ssh-keygen -t ed25519 -C "kazuma.ebina@quipper.com"
+ssh-add ~/.ssh/id_ed25519
