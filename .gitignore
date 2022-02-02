@@ -7,6 +7,9 @@
 !/.config/git/ignore
 
 !/Library/
+!/Library/Application Support/
+!/Library/Application Support/BetterSnapTool/
+!/Library/Application Support/BetterSnapTool/storedata
 !/Library/Preferences/
 !/Library/Preferences/com.hegenberg.BetterSnapTool.plist
 
