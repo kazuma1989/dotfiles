@@ -93,3 +93,6 @@ defaults write -g KeyRepeat -int 1
 # リピート入力認識までの時間
 defaults write -g InitialKeyRepeat -int 13
 
+# control + space で「前の入力ソースを選択」になるのを無効化
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 60 "<dict><key>enabled</key><false/></dict>"
+
