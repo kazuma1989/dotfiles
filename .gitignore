@@ -22,5 +22,6 @@
 !/.zshenv
 !/.zshrc
 !/Brewfile
+!/Iceberg_Cica.terminal
 !/README.md
 !/install.sh
