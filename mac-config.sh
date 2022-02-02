@@ -27,7 +27,7 @@ defaults write .GlobalPreferences AppleSpacesSwitchOnActivate -bool false
 defaults write com.apple.dock expose-group-apps -bool false
 
 # ディスプレイごとに個別の操作スペース
-defaults write com.apple.spaces spans-displays -bool true
+defaults write com.apple.spaces spans-displays -bool false
 
 # Hot corners （Mission Control のホットコーナーの設定）
 # Possible values:
@@ -76,7 +76,9 @@ defaults write com.apple.Terminal "Startup Window Settings" -string "Iceberg_Cic
 ## Trackpad
 
 # タップでクリック
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+# システム環境設定の GUI 上はチェックが入るけど、実際には動作しないなど、うまくいかない様子。
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+# defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
 
 # 軌跡の速さを速くする
 defaults write -g com.apple.trackpad.scaling 3
