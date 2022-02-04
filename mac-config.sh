@@ -87,11 +87,14 @@ defaults write -g com.apple.trackpad.scaling 3
 
 ## Keyboard
 
+# Character Pickerを無効にし、キーリピートを有効にする
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 # キーのリピート
-defaults write -g KeyRepeat -int 1
+defaults write -g KeyRepeat -int 2
 
 # リピート入力認識までの時間
-defaults write -g InitialKeyRepeat -int 13
+defaults write -g InitialKeyRepeat -int 15
 
 # control + space で「前の入力ソースを選択」になるのを無効化
 defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 60 "<dict><key>enabled</key><false/></dict>"
