@@ -243,6 +243,8 @@
 	dAgRGiQpMjdJTFFTWF5nbnd+hY6QkpShprG6wcQAAAAAAAABAQAAAAAAAAAcAAAAAAAA
 	AAAAAAAAAAAAzQ==
 	</data>
+	<key>FontWidthSpacing</key>
+	<real>1.05</real>
 	<key>Linewrap</key>
 	<true/>
 	<key>ProfileCurrentVersion</key>
@@ -279,7 +281,7 @@
 	<key>VisualBell</key>
 	<false/>
 	<key>name</key>
-	<string>Iceberg</string>
+	<string>Iceberg_Cica</string>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
