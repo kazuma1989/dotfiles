@@ -1,5 +1,6 @@
 # require sudo
 cask "karabiner-elements"
+cask "homebrew/cask-drivers/logitech-options"
 
 brew "direnv"
 brew "git"
