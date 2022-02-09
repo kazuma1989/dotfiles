@@ -1,4 +1,5 @@
 # require sudo
+cask "zulu11"
 cask "karabiner-elements"
 cask "homebrew/cask-drivers/logitech-options"
 
