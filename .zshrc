@@ -16,3 +16,10 @@ alias tree='tree --dirsfirst -a -N -F -I "\.DS_Store|\.git|node_modules|\.cache|
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(direnv hook zsh)"
 eval "$(nodenv init - zsh)"
+
+# misc
+export PATH="$HOME/bin:$PATH"
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
