@@ -1,6 +1,8 @@
 *
 
 !/.config/
+!/.config/direnv/
+!/.config/direnv/direnv.toml
 !/.config/karabiner/
 !/.config/karabiner/karabiner.json
 !/.config/git/
