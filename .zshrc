@@ -4,7 +4,7 @@ autoload -U compinit && compinit
 
 # prompt
 PROMPT='%U%B%F{cyan}%1~ %#%f%b%u '
-set -o emacs
+bindkey -e
 
 # alias
 alias ll='ls -lGAh'
