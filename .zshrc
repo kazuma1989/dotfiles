@@ -2,6 +2,9 @@
 autoload -U zmv
 autoload -U compinit && compinit
 
+# setopt
+setopt share_history
+
 # prompt
 PROMPT='%U%B%F{cyan}%1~ %#%f%b%u '
 bindkey -e
