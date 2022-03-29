@@ -28,3 +28,7 @@ export PATH="$HOME/bin:$PATH"
 # tabtab source for packages
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
+
+# zsh-autosuggestions
+# To activate the autosuggestions, add the following at the end of your .zshrc:
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh

@@ -11,6 +11,7 @@ brew "jq"
 brew "nodenv"
 brew "tree"
 brew "yarn"
+brew "zsh-autosuggestions"
 
 cask "charles"
 cask "clipy"
