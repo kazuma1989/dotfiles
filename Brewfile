@@ -3,6 +3,7 @@ cask "zulu11"
 cask "karabiner-elements"
 cask "homebrew/cask-drivers/logitech-options"
 
+brew "awscli"
 brew "direnv"
 brew "docker"
 brew "git"
