@@ -13,7 +13,7 @@ bindkey -e
 alias ll='ls -lGAh'
 alias pbcopy='pbcopy && pbpaste'
 alias sync='hub sync'
-alias tree='tree --dirsfirst -a -N -F -I "\.DS_Store|\.git|node_modules|\.cache|dist|\.ts-cache"'
+#alias tree='tree --dirsfirst -a -N -F -I "\.DS_Store|\.git|node_modules|\.cache|dist|\.ts-cache"'
 
 alias escli='node <(curl -fsSL https://$GITHUB_TOKEN:x-oauth-basic@raw.githubusercontent.com/quipper/es-web-tool/HEAD/escli)'
 
