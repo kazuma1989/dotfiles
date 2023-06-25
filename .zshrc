@@ -24,6 +24,7 @@ eval "$(nodenv init - zsh)"
 
 # misc
 export PATH="$HOME/bin:$PATH"
+export SAVEHIST=100000
 
 # tabtab source for packages
 # uninstall by removing these lines
