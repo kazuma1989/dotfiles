@@ -1,7 +1,5 @@
 # require sudo
-cask "zulu11"
 cask "karabiner-elements"
-cask "homebrew/cask-drivers/logitech-options"
 
 brew "awscli"
 brew "direnv"
@@ -11,14 +9,11 @@ brew "gh"
 brew "hub"
 brew "jq"
 brew "nodenv"
-brew "stripe/stripe-cli/stripe"
 brew "tree"
-brew "yarn"
 brew "zsh-autosuggestions"
 
 cask "charles"
 cask "clipy"
-cask "docker"
 cask "figma"
 cask "firefox"
 cask "google-chrome"
