@@ -1,6 +1,13 @@
 # require sudo
 cask "karabiner-elements"
 
+## kubernetes
+brew "kubectl"
+brew "kubectx"
+brew "kube-ps1"
+brew "stern"
+brew "txn2/tap/kubefwd"
+
 brew "awscli"
 brew "direnv"
 brew "docker"
