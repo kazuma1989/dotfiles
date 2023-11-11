@@ -9,6 +9,7 @@ brew "stern"
 brew "txn2/tap/kubefwd"
 
 brew "awscli"
+brew "deno"
 brew "direnv"
 brew "docker"
 brew "git"
