@@ -33,3 +33,7 @@ export SAVEHIST=100000
 # zsh-autosuggestions
 # To activate the autosuggestions, add the following at the end of your .zshrc:
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+## gcloud
+#source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+#source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
