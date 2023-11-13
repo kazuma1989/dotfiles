@@ -1,6 +1,9 @@
 # require sudo
 cask "karabiner-elements"
 
+# tap
+tap "oven-sh/bun"
+
 ## kubernetes
 brew "kubectl"
 brew "kubectx"
@@ -18,6 +21,7 @@ brew "hub"
 brew "jq"
 brew "mkcert"
 brew "nodenv"
+brew "oven-sh/bun/bun"
 brew "tree"
 brew "zsh-autosuggestions"
 
