@@ -37,3 +37,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ## gcloud
 #source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
 #source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
+
+# https://zenn.dev/mizchi/articles/experimental-node-typescript
+alias nodets="node --experimental-strip-types --experimental-transform-types --experimental-detect-module --no-warnings=ExperimentalWarning"
