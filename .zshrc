@@ -20,7 +20,6 @@ alias escli='node <(curl -fsSL https://$GITHUB_TOKEN:x-oauth-basic@raw.githubuse
 # hooks
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(direnv hook zsh)"
-eval "$(nodenv init - zsh)"
 
 # misc
 export PATH="$HOME/bin:$PATH"
