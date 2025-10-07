@@ -12,6 +12,7 @@ brew "stern"
 brew "txn2/tap/kubefwd"
 
 brew "awscli"
+brew "colima"
 brew "deno"
 brew "direnv"
 brew "docker"
