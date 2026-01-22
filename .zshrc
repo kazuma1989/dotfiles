@@ -15,8 +15,6 @@ alias pbcopy='pbcopy && pbpaste'
 alias sync='hub sync'
 #alias tree='tree --dirsfirst -a -N -F -I "\.DS_Store|\.git|node_modules|\.cache|dist|\.ts-cache"'
 
-alias escli='node <(curl -fsSL https://$GITHUB_TOKEN:x-oauth-basic@raw.githubusercontent.com/quipper/es-web-tool/HEAD/escli)'
-
 # hooks
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(direnv hook zsh)"
@@ -38,5 +36,5 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 #source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
 #source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
-# https://zenn.dev/mizchi/articles/experimental-node-typescript
-alias nodets="node --experimental-strip-types --experimental-transform-types --experimental-detect-module --no-warnings=ExperimentalWarning"
+alias claude="/Users/01035648/.claude/local/claude"
+
