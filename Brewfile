@@ -24,6 +24,7 @@ brew "jq"
 brew "mkcert"
 brew "nodenv"
 brew "oven-sh/bun/bun"
+brew "pnpm"
 brew "tree"
 brew "zsh-autosuggestions"
 

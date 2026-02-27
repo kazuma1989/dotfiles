@@ -14,3 +14,5 @@
 	algorithm = histogram
 [init]
 	defaultBranch = main
+[stash]
+	showIncludeUntracked = true

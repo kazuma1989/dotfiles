@@ -36,5 +36,5 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 #source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
 #source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
-alias claude="/Users/01035648/.claude/local/claude"
 
+export PATH="$HOME/.local/bin:$PATH"
